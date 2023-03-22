@@ -1,0 +1,202 @@
+body {
+    background-color: #C7B2D4;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+.header-bar{
+    background-color: #B8B6B6;
+    padding-bottom: 20px;
+}
+.logo{
+    position: relative;
+    display: inline-block;
+    left: 1.25%;
+    top: 10.59%;
+    bottom: 229px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+}
+.necesito{
+    position: relative;
+    display: inline-block;
+top: 29px;
+bottom: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #DD75C6;
+}
+.conoce{
+    position: relative;
+    display: inline-block;
+left: 28px;
+top: 29px;
+bottom: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.soy{
+    display: inline-block;
+    position: relative;
+    left: 56px;
+    top: 29px;
+    bottom: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.pastilla{
+    margin-top: 59px;
+    margin-bottom: 50px;
+    width: 352.51px;
+height: 48.41px;
+left: 729.49px;
+top: 222px;
+
+background: rgba(221, 117, 198, 0.76);
+border-radius: 33px;
+}
+.loginActivo{
+    margin-top: 8px;
+    margin-left: 20px;
+    width: 156.44px;
+height: 32.82px;
+left: 749px;
+top: 230px;
+
+background: #DD75C6;
+border-radius: 33px;
+
+}
+.loginWord{
+    margin-top: 4px;
+    margin-left: 40px;
+    width: 136px;
+height: 20px;
+left: 774px;
+top: 235px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+a{
+    color: #FFFFFF;
+}
+.registroWord{
+    margin-top: 13px;
+    margin-left: 50px;
+    width: 100px;
+height: 19.69px;
+left: 955.57px;
+top: 236.77px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+.inputText{
+margin-top: 22px;
+margin-bottom: 10px;
+}
+.input{
+    box-sizing: border-box;
+
+width: 467px;
+height: 44.31px;
+left: 729px;
+top: 410.15px;
+
+background: #FFFFFF;
+border: 1px solid #DD75C6;
+border-radius: 40px;
+}
+
+.btn{
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 175px;
+    width: 286px;
+height: 40px;
+left: 910px;
+top: 700.62px;
+
+background: rgba(221, 117, 198, 0.76);
+border-radius: 36px;
+}
+.image{
+    position: absolute;
+    margin-bottom: 100px;
+    background-image: url("./assets/image\ 10.svg");
+   height: 800px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+
+@media (max-width:700px){
+    .pastilla{
+        margin-bottom: 20px;
+    }
+    .necesito  {
+        display: flex;
+        left: 5px;
+    }
+    .conoce  {
+        display: flex;
+        left: 5px;
+    }
+    .soy  {
+        display: flex;
+        left: 5px;
+    }
+    .header-bar{
+        padding-bottom: 40px;
+    }
+    .inputText{
+        margin-top: 50px;
+        }
+    .input{
+        width: 340px;
+    }
+    .btn{
+        margin-left: 25px;
+        margin-bottom: 45px;
+    }
+    .image{
+        background-image: none
+    }
+}
